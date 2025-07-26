@@ -18,8 +18,9 @@ This project is a **machine learning-powered house price prediction system** bui
 
 ## 📊 Dataset
 
-- Source: Custom/Manual Kathmandu housing dataset
+- Source: (https://www.kaggle.com/datasets/nishanpokh/house-price-dataset-nepal)
 - Preprocessing steps:
+  - Manual Row Cleaning of Irrelevant Data(such as `RENT` `Rs. X /m` and `Rs. XX / aana`)
   - Cleaned `PRICE` column by removing symbols and characters
   - Dropped irrelevant columns like `FACING` and `BUILT YEAR`
   - Encoded `LOCATION` using `LabelEncoder`
