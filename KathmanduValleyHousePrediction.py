@@ -153,4 +153,4 @@ print(f"MSE  (Mean Squared Error)     : {test_mse:.2f}")
 print(f"RMSE (Root Mean Squared Error): {test_rmse:.2f}")
 print(f"R² Score                      : {test_r2:.2f}")
 
-print(df.head()) # Best Params: {'n_estimators': 300, 'min_samples_split': 2, 'max_features': 'sqrt', 'max_depth': 20}
+print(df.head())  # Best Params: {'n_estimators': 300, 'min_samples_split': 2, 'max_features': 'sqrt', 'max_depth': 20}
